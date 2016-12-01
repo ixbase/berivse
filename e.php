@@ -1,7 +1,6 @@
 <?php
 if(!isset($ix)){
-foreach ($_REQUEST as $key=>$val){${$key}=$val;}
-}
+foreach ($_REQUEST as $key=>$val){${$key}=$val;}}
 foreach ($_SERVER  as $key=>$val){${$key}=$val;}
 foreach ($_SESSION as $key=>$val){${$key}=$val;}
 foreach ($_COOCIE  as $key=>$val){${$key}=$val;}
